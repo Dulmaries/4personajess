@@ -1,0 +1,95 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.body{
+    margin: 0 auto;
+}
+header{
+    width: 1366px;
+    height: 150px;
+    background-color: rgb(246 230 82);
+    margin: 0 auto;
+    text-align: center;
+
+}
+header img{
+height: 95%;
+margin-left: 40px;
+}
+nav{
+    width: 1366px;
+    height: 150px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+nav a{
+    color: rgb(68, 55, 55);
+    text-decoration: none;
+    padding: 15px 10px;
+    transition: 0.4s;
+    overflow: hidden;
+    font-family: ;
+}
+nav a:hover{
+    background-color: rgb(156 82 0);
+    color: rgb(225, 164, 234);
+    transform: scale(1.2);
+}
+main{
+    width: 1366px;
+    height: 2000px;
+    background-color: aquamarine;
+    margin: 33px;
+    margin-top: 80px;
+    margin: 0 auto;
+    background-image: url(../4personajes/img/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.personajes{
+    width: 1300px;
+    height: 400px;
+    background-color: rgba(246, 189, 32, 0.453);
+    display: inline-block;
+    margin-left: 33px;
+    margin-top: 80px;
+}
+.foto{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    float: left;
+    margin-left: 33px;
+    text-align: center;
+    border-bottom: 4px dotted crimson;
+}
+.foto img{
+    height: 100%; /* es un comentario en css */
+}
+.info{
+    width: 800px;
+    height: 400px;
+    float: left;
+    padding: 30px;
+}
+.info h1{
+    margin: 20px 0;
+}
+.text-link{
+    
+}
+footer{
+    width: 1366px;
+    height: 100px;
+    background-color: blanchedalmond;
+    margin: 0 auto;
+}
