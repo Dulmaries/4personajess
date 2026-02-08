@@ -1,5 +1,7 @@
 *{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "SN Pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -36,11 +38,12 @@ nav a{
     padding: 15px 10px;
     transition: 0.4s;
     overflow: hidden;
-    font-family: ;
+    font-family: "SN Pro", sans-serif;
+    font-size: larger;
 }
 nav a:hover{
     background-color: rgb(156 82 0);
-    color: rgb(225, 164, 234);
+    color: rgb(255, 255, 255);
     transform: scale(1.2);
 }
 main{
@@ -50,7 +53,7 @@ main{
     margin: 33px;
     margin-top: 80px;
     margin: 0 auto;
-    background-image: url(../4personajes/img/fond.jpg);
+    background-image: url(../img/fond.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -58,10 +61,13 @@ main{
 .personajes{
     width: 1300px;
     height: 400px;
-    background-color: rgba(246, 189, 32, 0.453);
+    background-color: rgba(179, 229, 225, 0.523);
     display: inline-block;
     margin-left: 33px;
     margin-top: 80px;
+}
+.personajes a{
+    color: blue;
 }
 .foto{
     width: 400px;
@@ -81,15 +87,27 @@ main{
     float: left;
     padding: 30px;
 }
-.info h1{
+.info h3{
     margin: 20px 0;
-}
-.text-link{
-    
+    font-size: 1.8rem;
 }
 footer{
     width: 1366px;
-    height: 100px;
+    height: 300px;
     background-color: blanchedalmond;
     margin: 0 auto;
+    padding: 20px;
+}
+footer a{
+    color: blue;
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    font-size: large;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer p{
+    color: rgb(68, 55, 55)
 }
